@@ -1,0 +1,29 @@
+{
+    "name": "lijiangbo/code-framework",
+    "description": "a business layer framework",
+    "require": {
+        "php": "^7.0",
+        "pimple/pimple": "~3.2",
+        "davedevelopment/phpmig": "~1.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Code\\Framework\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lijiangbo",
+            "email": "807725437@qq.com"
+        }
+    ]
+}
