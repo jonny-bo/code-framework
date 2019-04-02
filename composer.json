@@ -2,9 +2,21 @@
     "name": "lijiangbo/code-framework",
     "description": "a business layer framework",
     "require": {
-        "php": "^7.0",
+        "php": "^7.1",
+        "ext-json":"*",
+        "ext-pdo": "*",
+        "ext-redis": "*",
         "pimple/pimple": "~3.2",
-        "davedevelopment/phpmig": "~1.2"
+        "davedevelopment/phpmig": "~1.2",
+        "doctrine/dbal": "~2.4",
+        "doctrine/common": "~2.4",
+        "doctrine/annotations": "~1.2",
+        "monolog/monolog": "^1.20",
+        "firebase/php-jwt": "^5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.9",
+        "phpunit/phpunit": "^4.8|^5.7|^6.0"
     },
     "license": "MIT",
     "autoload": {
